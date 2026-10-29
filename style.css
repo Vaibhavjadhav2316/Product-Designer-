@@ -194,3 +194,59 @@
     font-size: 15px;
     
 }
+
+
+#subscribe {
+   background-color: black;
+   padding: 20px 30px;
+   padding-bottom: 9vw;
+   color: #fff;
+}
+
+#subscribe h5 {
+   text-transform: uppercase;
+   opacity: .6;
+}
+
+#subscribe h3 {
+   text-transform: uppercase;
+   font-size: 16px;
+   margin-top: 10px;
+
+}
+
+#footer {
+   color: #fff;
+   background-color: black;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 40px 30px;
+}
+
+#footerleft {
+   
+   display: flex;
+   gap: 30px;
+}
+#footerleft h5 {
+   font-size: 15px;
+}
+
+
+#footerright {
+   display: flex;
+   gap: 60px;
+   
+}
+
+#footerright a {
+
+   text-transform: uppercase;
+   color: #fff;
+   text-decoration: none;
+   font-size: 17px;
+   font-weight: 500;
+
+
+}
