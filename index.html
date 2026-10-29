@@ -4,6 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Product Designer</title>
+
+    <link rel="stylesheet" href="loco.css" />
     <link
       href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css"
       rel="stylesheet"
@@ -11,58 +13,78 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div id="main">
-       <div id="hero">
+    <div id="minicircle">
 
+    </div>
+
+    <div id="main" data-scroll-container>
+      <div id="hero">
         <div id="nav">
           <a href="#">Cynthia Ugwu</a>
           <h4>MENU+</h4>
         </div>
 
         <div id="heading">
-          <h1>Product</h1>
-
+          <div class="bounding">
+            <h1 class="boundingelem">Product</h1>
+          </div>
+          
           <div class="blocktext">
-            <h1 id="secondh1">Designer</h1>
-            <h5>Based in Toronto</h5>
+            <div class="bounding">
+            <h1 class="boundingelem" id="secondh1">Designer</h1>
+          </div>
+            
+             <div class="bounding">
+               <h5 class="boundingelem">Based in Toronto</h5>
+          </div>
           </div>
         </div>
 
         <div id="smallheadings">
-          <h5>Available for Full Time & Freelance</h5>
-          <h5>Work From March 30'</h5>
+          <div class="bounding">
+            <h5 class="boundingelem" >Available for Full Time & Freelance</h5>
+          </div>
+          
+          <div class="bounding">
+            <h5 class="boundingelem" >Work From March 30'</h5>
+          </div>
+          
         </div>
 
         <div id="herofooter">
-          <a href="#">Previously worked at YML <i class="ri-arrow-right-up-line"></i></a>
-          <a href="#">Protopie ambassador  <i class="ri-arrow-right-up-line"></i></a>
+          <a href="#"
+            >Previously worked at YML <i class="ri-arrow-right-up-line"></i
+          ></a>
+          <a href="#"
+            >Protopie ambassador <i class="ri-arrow-right-up-line"></i
+          ></a>
 
           <div id="iconset">
             <div class="circle"><i class="ri-arrow-down-line"></i></div>
             <div class="circle"><i class="ri-arrow-down-line"></i></div>
           </div>
         </div>
-      </div>  
+      </div>
 
-       <div id="second">
+      <div id="second">
         <div class="elem">
-          <img src="plug.png" alt="Plug">
+          <img src="plug.png" alt="Plug" />
           <h1>The Plug</h1>
           <h5>2022</h5>
         </div>
         <div class="elem">
-          <img src="ixperience.png" alt="ixperience">
+          <img src="ixperience.png" alt="ixperience" />
           <h1>Ixperience</h1>
           <h5>2022</h5>
         </div>
         <div class="elem elemlast">
-          <img src="hudu.png" alt="hudu">
+          <img src="hudu.png" alt="hudu" />
           <h1>hudu</h1>
           <h5>2022</h5>
         </div>
-      </div> 
+      </div>
 
-       <div id="about">
+      <div id="about">
         <img src="cynthia.webp" alt="cynthia" />
         <div id="textabout">
           <h5>(About Me)</h5>
@@ -78,16 +100,18 @@
           </p>
           <a href="">Let's Talk </a>
         </div>
-      </div> 
+      </div>
 
-       <div id="subscribe">
+      <div id="subscribe">
         <h5>oops, almost forgot...</h5>
-        <h3>subscribe to my youtube channel <i class="ri-arrow-right-up-line"></i></h3>
-      </div> 
+        <h3>
+          subscribe to my youtube channel <i class="ri-arrow-right-up-line"></i>
+        </h3>
+      </div>
 
       <div id="footer">
         <div id="footerleft">
-          <h5>&copy 2026 </h5>
+          <h5>&copy 2026</h5>
           <h5>00:05 AM EST</h5>
         </div>
         <div id="footerright">
@@ -98,5 +122,14 @@
         </div>
       </div>
     </div>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.15.0/all.js"
+      integrity="sha512-Lih9jQSv5CS2t9EJ8XAWw04Rb29RSYolcBApmENWnv/QeUF+G7GazUwvnVlQr9zfb3gfCcl42mCRiL46Z5G+pA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.min.js"></script>
+    <script src="script.js"></script>
   </body>
 </html>
