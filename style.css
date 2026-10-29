@@ -173,11 +173,13 @@
 }
 
 .elem img {
-    display: none;
-    /* opacity: 0; */
+    display: block;
+    opacity: 0;
     height: 140%;
     z-index: 999;
     position: absolute;
+    pointer-events: none;
+
 }
 
 #about {
